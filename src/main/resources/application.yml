@@ -1,0 +1,14 @@
+spring:
+  main:
+    banner-mode: off
+    allow-bean-definition-overriding: true
+
+
+logging:
+  level:
+    ru.micron: debug
+
+feign:
+  OMDb:
+    url: https://www.omdbapi.com
+    apiKey: a51f3624
